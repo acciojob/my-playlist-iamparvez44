@@ -1,58 +1,40 @@
-/*  your css code here. If applicable */
-.p1{
-	width: 90%;
-	margin-top: 10px;
-	background-color: rgb(255, 255, 255);
-	padding: 10px;
-}
+  body {
+      background-color: rgb(204, 204, 204);
+      font-family: Arial, sans-serif;
+    }
 
-.p2{
-	background-color: rgb(255, 255, 255);
-	padding: 10px;
-}
+    h1 {
+      text-align: center;
+    }
 
-a{
-	text-decoration: none;
-	color: black;
-}
+    h2 {
+      text-align: center;
+    }
 
-body{
-	background-color: rgb(204, 204, 204);
+    ul {
+      padding: 10px;
+    }
 
-}
+    li {
+      list-style-type: none;
+      margin: 5px 0;
+    }
 
-.player_one{
-	width: 70%;
-	border: 2px solid black;
-	text-align:center;
-	background-color:white;
-	border-radius: 10px;
-	margin: 10px auto;
-	background-color: rgb(255, 255, 255);
-	padding: 10px;
-	border-radius: 10px;
-	
-}
+    a {
+      text-decoration-line: none;
+      color: black;
+    }
 
+    .player_one,
+    .player_two {
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+      border-radius: 10px;
+      width: 80%;
+      margin: 15px auto;
+    }
 
-
-h2{
-	text-align: center;
-}
-#main{
-	
-	width: 100vw;
-	height: 100vh;
-}
-#song-list{
-	border: 2px solid black;
-	border-radius: 10px;
-	background-color:white;
-	
-}
-ul {
-	list-style-type: none;
-	}
-h1{
-	text-align: center;
-}
+    video,
+    audio {
+      width: 100%;
+    }

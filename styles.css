@@ -1,12 +1,12 @@
 /*  your css code here. If applicable */
-.player_one{
+.p1{
 	width: 90%;
 	margin-top: 10px;
 	background-color: rgb(255, 255, 255);
 	padding: 10px;
 }
 
-.player_two{
+.p2{
 	background-color: rgb(255, 255, 255);
 	padding: 10px;
 }
@@ -21,13 +21,16 @@ body{
 
 }
 
-#playing-section{
+.player_one{
 	width: 70%;
 	border: 2px solid black;
 	text-align:center;
 	background-color:white;
 	border-radius: 10px;
 	margin: 10px auto;
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	border-radius: 10px;
 	
 }
 
